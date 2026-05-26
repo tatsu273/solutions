@@ -1,6 +1,7 @@
 ## LeetCode problems 1320. Minimum Distance to Type a Word Using Two Fingers
-### 問題
+## 問題
 [問題](https://leetcode.com/problems/minimum-distance-to-type-a-word-using-two-fingers/description/)
+## 解法
 ### 1. MultidimentionalDP
 ```
 class Solution:
