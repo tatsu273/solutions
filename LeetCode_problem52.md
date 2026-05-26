@@ -1,4 +1,4 @@
-# LeetCode Problems 52. N-Queens Ⅱ
+## LeetCode Problems 52. N-Queens Ⅱ
 ## 問題
 [問題](https://leetcode.com/problems/n-queens-ii/)
 ## 解法
