@@ -1,5 +1,5 @@
 ## LeetCode problems 1320. Minimum Distance to Type a Word Using Two Fingers
-1. MultidimentionalDP
+### 1. MultidimentionalDP
 ```
 class Solution:
     def minimumDistance(self, word: str) -> int:
@@ -26,7 +26,7 @@ class Solution:
         return ans        
 ```
 
-2. DP
+### 2. DP
 ```
 class Solution:
     def minimumDistance(self, word: str) -> int:
