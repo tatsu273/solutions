@@ -25,6 +25,8 @@ class Solution:
                 ans = min(ans, dp[-1][j][k])
         return ans        
 ```
+Time Complexity ... $O(N^2)$ <br>
+Space Complexity ... $O(N^2) $
 
 ### 2. DP
 ```
@@ -50,3 +52,6 @@ class Solution:
             
         return min(dp.values())
 ```
+
+Time Complexity ... $O(N^2)$ <br>
+Space Complexity ... $O(N) $
