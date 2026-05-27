@@ -1,6 +1,6 @@
 ## LeetCode Problem 992. Subarrays with K Different Integers
 ## 問題
-[]()
+[問題](https://leetcode.com/problems/subarrays-with-k-different-integers/submissions/1472498394/)
 ## 解法
 ```
 class Solution:
