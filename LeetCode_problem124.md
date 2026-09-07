@@ -3,6 +3,7 @@
 [問題](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/)
 ## 解法
 ```
+class Solution:
     def maxPathSum(self, root: Optional[TreeNode]) -> int:
         res = -float('inf')
         def helper(node):
