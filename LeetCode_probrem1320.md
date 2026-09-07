@@ -29,7 +29,7 @@ class Solution:
         return ans        
 ```
 Time Complexity ... $O(N)$ <br>
-Space Complexity ... $O(N) $
+Space Complexity ... $O(26\*26\*N) = O(N)$
 
 ### 解説
 全探索ですべての動かし方を探索すると時間計算量が
@@ -77,4 +77,8 @@ class Solution:
 
 Time Complexity ... $O(N)$ <br>
 Space Complexity ... $O(26) = O(1)$
+
+### 解説
+1つ目の解法では3次元dpを利用して解きましたが、これはメモリの消費量が大きくなってしまうというデメリットを持ちます。<br>
+そこで、
 
