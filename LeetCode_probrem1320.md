@@ -31,6 +31,15 @@ class Solution:
 Time Complexity ... $O(N^2)$ <br>
 Space Complexity ... $O(N^2) $
 
+### 解説
+全探索ですべての動かし方を探索すると時間計算量が
+$O(2^N)$
+になってしまうため動的計画法を利用します。
+テーブルは <br>
+$dp[i][j][k] ... i$ 番目の文字を押すときに2本の指がぞれぞれ
+$j, k$
+番目の文字を押している場合の距離の最小値
+
 ### 2. DP
 ```
 class Solution:
@@ -56,5 +65,3 @@ class Solution:
         return min(dp.values())
 ```
 
-Time Complexity ... $O(N^2)$ <br>
-Space Complexity ... $O(N) $
