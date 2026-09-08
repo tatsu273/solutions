@@ -1,4 +1,4 @@
-## LeetCode Problem 295. FindMedium from Data Stream
+## LeetCode Problem 295. Find Medium from Data Stream
 ## 問題
 [問題](https://leetcode.com/problems/find-median-from-data-stream/)
 ## 解法
